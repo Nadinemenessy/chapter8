@@ -31,8 +31,8 @@ int main()
 {
 	int x = 7;
 	int y = 9;
-	swap_v(x, y);
-	swap_r(x, y);
+	swap_v(x, y);//swapping by value
+	swap_r(x, y);//sawwping by refrence 
 
 	const int cx = 7;
 	const int cy = 9;
